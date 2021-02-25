@@ -5,13 +5,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Tokens {
-    private ArrayList<String> femaleTokens;
-    private ArrayList<String> maleTokens;
+public class AlgorithmResponse {
+    private String gender;
 }
